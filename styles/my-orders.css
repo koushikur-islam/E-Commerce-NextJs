@@ -1,0 +1,33 @@
+.orders-container {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.orders-card {
+  display: inline-block;
+  background-color: #fff;
+  width: 40%;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.5s ease-in-out;
+}
+.orders-card:hover{
+    background-color: coral;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.orders-card label {
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.orders-card span {
+  font-style: italic;
+}

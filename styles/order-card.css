@@ -1,0 +1,16 @@
+.order-card{
+    margin:10px 0;
+    padding:20px;
+    background-color: #FFF;
+    width: 500px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+}
+@media (max-width: 768px){
+    .order-card{
+        width: 94%;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,68 @@
+.cart-container {
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+.header-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+.cart-container table {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ddd;
+  width: 60%;
+  text-align: center;
+}
+.cart-container table th {
+  width: 30%;
+}
+
+.cart-container table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  table-layout: fixed;
+}
+
+.cart-container table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+.cart-container table tr {
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+.cart-container table th,
+.cart-container table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+.cart-container table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.cart-container table tr:last-child label{
+  font-weight: bold;
+  font-size: 17px;
+}
+.cart-container table tfoot tr:last-child button{
+    background-color:#2b2a2a;
+    color:#ddd;
+    margin: 10px;
+    padding:4px 10px 5px 10px;
+    border-radius: 15px;
+}
+@media(max-width:992px){
+    .cart-container table{
+        width: 100%;
+    }
+}
